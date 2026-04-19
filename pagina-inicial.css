@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-banner {
+    position: relative; 
+    width: 100%;
+    height: 200px;
+}
+
+.fundo {
+    width: 100%;
+    height: 131px;
+    
+
+}
+
+/* logo POR CIMA */
+.logo {
+    position: absolute;
+    top: 0px;      /* ajusta posição vertical */
+    left: 0px;     /* ajusta posição horizontal */
+    width: 200px;
+    z-index: 2;     /* fica na frente */
+}
+
+/* texto por cima também */
+.titulo {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    transform: translateY(-50%);
+    font-size: 28px;
+    z-index: 2;
+    font-family: "Brush Script MT", cursive;
+    font-size: 55px;
+    font-weight: normal;
+}   
+
